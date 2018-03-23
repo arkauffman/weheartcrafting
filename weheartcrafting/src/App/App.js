@@ -5,6 +5,7 @@ import {
   Route
 } from 'react-router-dom';
 import NavBar from '../NavBar/NavBar';
+import Home from '../Home/Home';
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,8 @@ class App extends Component {
         <Router>
           <div>
             <NavBar />
+
+            <Home />
           </div>
         </Router>
       </div>
