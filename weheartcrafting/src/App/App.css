@@ -1,3 +1,14 @@
+body {
+  background-color: #fffafa;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  color: #cd5c5c;
+  font-size: 50px;
+  text-shadow: 1px 1px rgb(194, 194, 194);
+}
+
 .App {
   text-align: center;
 }

@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 require('dotenv').config();
 
-require('./config/database');
+//require('./config/database');
 
 var app = express();
 
@@ -18,7 +18,7 @@ app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.use(bodyParser.json());
-app.use(require('./config/auth'));
+//app.use(require('./config/auth'));
 
 
 // Put API routes here, before the "catch all" routeî

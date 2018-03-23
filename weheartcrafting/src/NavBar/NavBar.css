@@ -1,0 +1,43 @@
+nav {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    height: 85px;
+}
+
+a {
+    padding-top: 15px;
+    padding-right: 15px;
+    size: 10px;
+}
+
+.BrandName {
+    color: #cd5c5c;
+    font-size: 50px;
+    text-shadow: 1px 1px rgb(194, 194, 194);
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    font-weight: 800;
+    /* max-width: 50%;
+    letter-spacing: -0.05em;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.Left {
+    float: left;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    
+}
+
+.brand-logo.center {
+    letter-spacing: -0.05em;
+    font-weight: 800;
+    color: white !important;
+    font-size: 50px !important;
+    padding: 10px;
+}
+
