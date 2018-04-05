@@ -11,15 +11,12 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Router>
-          <div>
-            <NavBar />
-
-            <Home />
-          </div>
-        </Router>
-      </div>
+      <Router>
+        <div className="App">
+          <NavBar />
+          <Home />
+        </div>
+      </Router>
     );
   }
 }
