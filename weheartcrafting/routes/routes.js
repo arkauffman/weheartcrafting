@@ -1,13 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
-
 router.get('/about', function(req, res) {
-    return res.send('hello!!!!!');
+    console.log('++++++++++++')
+    res.json('hello!!!!!');
 });
 
 router.get('/item/:id', function(req, res) {
-    return res.send('hello!');
+    res.send('hello!');
 });
 
 

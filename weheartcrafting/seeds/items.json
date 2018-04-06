@@ -1,0 +1,20 @@
+[
+    {
+        "title": "pouf",
+        "description": "a lovely pouf to lounge on",
+        "image": "https://images.cb2.com/is/image/CB2/WoolWrapPoufGreySHF17_1x1",
+        "price": "85.50"
+    },
+    {
+        "title": "scarf",
+        "description": "stay warm this winter!",
+        "image": "https://i.ytimg.com/vi/GD_NTghNWgE/maxresdefault.jpg",
+        "price": "39.99"
+    },
+    {
+        "title": "cactus",
+        "description": "you won't kill this plant",
+        "image": "https://i.pinimg.com/originals/bd/bb/f7/bdbbf7adfc027bba481c461442dd3a39.jpg",
+        "price": "30.00"
+    }
+]
