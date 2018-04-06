@@ -3,6 +3,7 @@ var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+//var mongoose = req
 
 require('dotenv').config();
 
@@ -22,8 +23,6 @@ app.use(bodyParser.json());
 
 
 // Put API routes here, before the "catch all" routeî
-// app.use('/api/topscores', require('./routes/api/topscores'));
-
 app.use('/about', require('./routes/routes'));
 app.use('/item/:id', require('./routes/routes'));
 
