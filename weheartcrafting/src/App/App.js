@@ -10,13 +10,22 @@ import About from '../About/About';
 import './App.css';
 
 class App extends Component {
+  state = {
+    shoppingItems: []
+  }
+  
+  componentDidMount() {
+
+  }
   render() {
     return (
       <Router>
         <div className="App">
           <NavBar />
           <Route exact path='/' render={(props) =>
-            <Home />
+            <Home
+            shoppingItems={this.state.shoppingItems}
+            />
           }/>
           <Route exact path='/about' render={(props) => 
              <About /> 
