@@ -4,13 +4,13 @@ nav {
     height: 85px;
     background-color: transparent !important;
 }
-
+/*
 a {
     padding-top: 15px;
     padding-right: 15px;
     size: 10px;
 }
-
+*/
 .BrandName {
     color: #cd5c5c;
     font-size: 50px;
@@ -25,7 +25,7 @@ a {
     align-items: center;
     justify-content: center; */
 }
-
+/*
 .Left {
     float: left;
     font-size: 15px;
@@ -40,5 +40,14 @@ a {
     color: white !important;
     font-size: 50px !important;
     padding: 10px;
+}*/
+
+.links {
+    float: right;
 }
 
+
+.links a {
+    color: #cd5c5c;
+    padding-left: 10px;
+}
