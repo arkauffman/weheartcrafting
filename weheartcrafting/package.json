@@ -25,5 +25,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "etsy-js": "0.0.6",
+    "express-session": "^1.15.6"
+  }
 }

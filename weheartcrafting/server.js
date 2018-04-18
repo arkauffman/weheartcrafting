@@ -1,14 +1,13 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var bodyParser = require('body-parser');
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const bodyParser = require('body-parser');
 
 require('dotenv').config();
-
 require('./config/database');
 
-var app = express();
+const app = express();
 
 app.use(logger('dev'));
 
@@ -21,8 +20,10 @@ app.use(bodyParser.json());
 //app.use(require('./config/auth'));
 
 
-// Put API routes here, before the "catch all" routeî
-app.use('/', require('./routes/routes'));
+// Put API routes here, before the "catch all" route
+app.use('/api/items', require('./routes/api/items.js'));
+app.use('/api/static', require('./routes/api/static.js'));
+
 
 // The following "catch all" route is necessary for
 // a SPA'sclient-side routing to properly work
@@ -32,7 +33,7 @@ app.get('/*', function(req, res) {
 
 // Configure to use port 3001 instead of 3000 during
 // development to avoid collision with React's dev server
-var port = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 
 app.listen(port, function() {
   console.log(`Express app running on port ${port}`)
