@@ -1,11 +1,17 @@
-nav {
+.nav-style {
+    color: #cd5c5c;
+}
+.padder {
+    margin-bottom:2%;
+}
+/*nav {
     padding-top: 30px;
     padding-bottom: 30px;
     height: 85px;
     background-color: transparent !important;
-}
+}*/
 
-a {
+/*a {
     padding-top: 15px;
     padding-right: 15px;
     size: 10px;
@@ -18,12 +24,6 @@ a {
     text-decoration: none;
     letter-spacing: -0.05em;
     font-weight: 800;
-    /* max-width: 50%;
-    letter-spacing: -0.05em;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .Left {
@@ -40,5 +40,5 @@ a {
     color: white !important;
     font-size: 50px !important;
     padding: 10px;
-}
+}*/
 
