@@ -4,9 +4,9 @@ const itemController = require('../../controllers/items')
 
 router.get('/', itemController.getItems)
 
-router.get('/:id', function(req, res) {
-    res.send('hello!');
-});
+// router.get('/:id', function(req, res) {
+//     res.send('hello!');
+// });
 
 
 module.exports = router;
